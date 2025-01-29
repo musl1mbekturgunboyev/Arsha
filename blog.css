@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+.shadow {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    backdrop-filter: blur(10px);
+    top: 0;
+    box-shadow: 2px 2px 10px rgb(82, 82, 82);
+    z-index: 9999;
+}
+
+.asosiy-div {
+    background-color: #37517e;
+    height: 100vh;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.Arsha {
+    margin-left: 100px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.div1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+    color: white;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.buton1 {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(40, 40, 249);
+    color: white;
+    border: none;
+}
+
+.home {
+    color: rgb(40, 40, 249);
+    cursor: pointer;
+}
+
+.About {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.About:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.Servises {
+    cursor: pointer;
+}
+
+.Servises:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.Portfolio {
+    cursor: pointer;
+}
+
+.Portfolio:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.Team {
+    cursor: pointer;
+}
+
+.Team:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.Pricing {
+    cursor: pointer;
+}
+
+.Pricing:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.Dropdown {
+    cursor: pointer;
+}
+
+.Dropdown:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.Contact {
+    cursor: pointer;
+}
+
+.Contact:hover {
+    color: blue;
+    transition: 1s;
+}
+
+.div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3 {
+    position: relative;
+    left: 100px;
+    top: 300px;
+}
+
+.div4 {
+    position: relative;
+    top: 60px;
+    right: 100px;
+}
+
+.div4 img {
+    animation: yuqoriga infinite 3s ease-in-out;
+    width: 600px;
+    margin-top: 120px;
+}
+
+@keyframes yuqoriga {
+    0% {
+        transform: translateY(0px);
+    } 
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.better {
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+
+
+.p1 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+
+}
+
+.button2 {
+    padding: 10px 30px;
+    position: relative;
+    top: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #47b2e4;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button3 {
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.button3 i  {
+    font-size: 30px;
+}
+
+.button3:hover {
+    color: #47b2e4;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.bi-play-circle{
+    right: 10px;
+    position: relative;
+}
+
+.us {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(89, 0, 255);
+}
+
+.p2 {
+    position: relative;
+    top: 100px;
+    font-size: 15px;
+    width: 93%;
+    left: 50px;
+}
+
+.p3 {
+    position: relative;
+    left: 50px;
+    top: 130px;
+    font-size: 17px;
+    width: 93%;
+}
+
+.div5 {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 50px;
+    font-size: 20px;
+    bottom: 150px;
+}
+
+.More {
+    cursor: pointer;
+    margin-left: 620px;
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    color: rgb(0, 162, 255);
+    border-color: rgb(0, 162, 255);
+    border-radius: 10px;
+}
+
+.More:hover {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    transition: 1s;
+}
+
+.right {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.right:hover {
+    font-size: 19px;
+}
+
+.baground {
+    background-color: gainsboro;
+    height: 150vh;
+    padding: 50px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.velit {
+    color: rgb(24, 0, 158);
+    font-size: 30px;
+    position: relative;
+    left: 30px;
+}
+
+.home-page-image img {
+    width: 450px;
+}
+
+.lorem {
+    position: relative;
+    left: 30px;
+    top: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.connect {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    background-color: white;
+    box-shadow: black;
+    width: 700px;
+    padding: 20px;
+    padding-right: 0px;
+}
+
+.N01 {
+    position: relative;
+    left: 10px;
+    color: rgb(0, 162, 255);
+    cursor: pointer;
+}
+
+.magna {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.connect2 {
+    position: relative;
+    top: 80px;
+    left: 30px;
+    background-color: white;
+    box-shadow: black;
+    width: 700px;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.connect3 {
+    position: relative;
+    top: 110px;
+    left: 30px;
+    background-color: white;
+    box-shadow: black;
+    width: 700px;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.img-div {
+    display: flex;
+}
+
+.IMG {
+    width: 600px;
+    position: relative;
+    left: 60%;
+    position: absolute;
+
+}
+
+.progres-foiz {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progres-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.progres-section img {
+    width: 700px;
+}
+
+.progress-blue {
+    background: #37517e;
+    width: 100%;
+    height: 12px;
+    margin-bottom: 20px;
+}
+
+
+.progress-blue-2 {
+    background: #37517e;
+    width: 100%;
+    height: 12px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: end;
+}
+
+.progress-white-2 {
+    width: 10%;
+    background: rgb(195, 195, 195);
+    height: 12px;
+}
+
+
+.progress-blue-3 {
+    background: #37517e;
+    width: 100%;
+    height: 12px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.progress-white-3 {
+    width: 25%;
+    background: rgb(195, 195, 195);
+    height: 12px;
+}
+
+
+.progress-blue-4 {
+    background: #37517e;
+    width: 100%;
+    height: 12px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.progress-white-4 {
+    width: 45%;
+    background: rgb(195, 195, 195);
+    height: 12px;
+}
+
+.fixed-icon {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    background: #47b2e4;
+    border-radius: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.main-card {
+    background: rgb(255, 255, 255);
+    width: 300px;
+    text-align: center;
+    transition: 1s;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.main-card:hover {
+    transform: translateY(-20px);
+}
+
+.icons4 {
+    color: #47b2e4;
+    margin-right: 150px;
+    margin-top: 20px;
+    font-size: 40px;
+} 
+
+.card-div {
+    margin-top: 200px;
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+}
+
+.teams {
+    position: relative;
+    top: 100px;
+}
+
+.team {
+    text-align: center;
+    color: #37517e;
+}
+.cards {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto ;
+     justify-content: center;
+}
+
+.card {
+    transition: 0.5s;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.imgs {
+    width: 150px;
+    padding: 25px;
+    border-radius: 100%;
+    justify-items: center;
+    object-fit: cover;
+}
+
+.p4 {
+    font-weight: bold;
+}
+
+.card:hover {
+    transform: translateY(-20px);
+}
+
+.chiziq {
+    width: 70px;
+    height: 1px;
+    background: rgb(177, 177, 177);
+}
+
+.chiziq-2 {
+    margin: 400px auto;
+    width: 200px;
+    height: 3px;
+    background: grey;
+    position: relative;
+}
+
+.chiziq-blue {
+    background: blue;
+    width: 40%;
+    height: 5px;
+    transform: translateY(-1px);
+    margin: 0 auto;
+}
+
